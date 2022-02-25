@@ -20,16 +20,18 @@ python manage.py runserver
 Вывод всей коллекции из базы:
 ```sh
 curl -X GET 'http://127.0.0.1:8000/product/'
-
+```
 Создание объектов:
 ```sh
 curl -X POST 'http://127.0.0.1:8000/api/product/' -H 'Accept: application/json' -H 'Content-Type: application/json' --data-raw '
 {"name": "name","description": "description","parameters": {"param1": "value","param2": "value2","param3": "value3"}}'
-
+```
 Получение товара:
 1)по ID
 ```sh
 curl -X GET 'http://127.0.0.1:8000/api/product/?id=value' -H 'Accept: application/json'
+```
 2)по названию
 ```sh
 curl -X GET 'http://127.0.0.1:8000/api/product/?name=value' -H 'Accept: application/json'
+```
