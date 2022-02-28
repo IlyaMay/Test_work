@@ -15,6 +15,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 ###Пример curl команд
+---
 Вывод всей коллекции из базы:
 ```sh
 curl -X GET 'http://127.0.0.1:8000/product/'
