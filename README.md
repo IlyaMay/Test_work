@@ -2,7 +2,7 @@
 ---
 Микросервис для электронного магазина.
 
-Проект выполнен на базе Django,Django Rest Framework, MongoDB.
+Проект выполнен на базе Django, Django Rest Framework, MongoDB.
 
 ### Инструкция:
 В файле ***requirements.txt*** указаны все необходимые бибилотеки для работы приложения.
