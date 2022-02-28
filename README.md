@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```sh
 python manage.py runserver
 ```
-###Пример curl команд
+### Пример curl команд
 ---
 Вывод всей коллекции из базы:
 ```sh
